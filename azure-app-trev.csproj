@@ -5,6 +5,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_trev</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/8acfb5ba-b976-4711-8173-c3d56b4fa6e3/resourceGroups/az-course-test-rg/providers/microsoft.insights/components/azure-app-vad-test-ai</ApplicationInsightsResourceId>
+    <UserSecretsId>3eb6c97c-9c7a-4526-a3f2-9c5f98e2cd4c</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.13.2" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.23.0" />
+  </ItemGroup>
 
 </Project>
